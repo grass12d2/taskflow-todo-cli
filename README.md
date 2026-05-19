@@ -43,7 +43,7 @@
 
 ```bash
 # 1. Клонируйте репозиторий
-git clone https://github.com/ваш_ник/taskflow-todo-cli.git
+git clone https://github.com/grass12d2/taskflow-todo-cli.git
 cd taskflow-todo-cli
 
 # 2. Установите зависимости
