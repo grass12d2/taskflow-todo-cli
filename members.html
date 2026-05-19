@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Участники — TaskFlow</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .members-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+        }
+        
+        .member-card {
+            background: rgba(255,255,255,0.1);
+            border-radius: 20px;
+            padding: 2rem;
+            width: 100%;
+            max-width: 480px;
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            transition: transform 0.3s;
+        }
+        
+        .member-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .avatar {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #00ff88;
+            flex-shrink: 0;
+        }
+        
+        .member-info h3 {
+            font-size: 1.6rem;
+            margin-bottom: 0.5rem;
+            color: #00ff88;
+        }
+        
+        .member-info p {
+            margin-bottom: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">TaskFlow</div>
+            <div class="nav-links">
+                <a href="index.html">Главная</a>
+                <a href="about.html">О проекте</a>
+                <a href="members.html">Участники</a>
+                <a href="journal.html">Журнал</a>
+                <a href="resources.html">Ресурсы</a>
+            </div>
+        </nav>
+    </header>
+
+    <section style="padding-top: 100px;">
+        <h2>Участники проекта</h2>
+        
+        <div class="members-container">
+            
+            <!-- Luong Van Duc -->
+            <div class="member-card">
+                <img src="images/lvd.jpg" alt="Лыонг Ван Дык" class="avatar">
+                <div class="member-info">
+                    <h3>Лыонг Ван Дык</h3>
+                    <p><strong>Роль:</strong> Руководитель проекта</p>
+                    <p>Полная реализация проекта, разработка CLI-приложения, структуры, документации и сайта.</p>
+                    <p><strong>Основные обязанности:</strong> Главный разработчик</p>
+                </div>
+            </div>
+
+            <!-- Lai Xuan Hieu -->
+            <div class="member-card">
+                <img src="images/lxh.jpg" alt="Лай Суан Хьеу" class="avatar">
+                <div class="member-info">
+                    <h3>Лай Суан Хьеу</h3>
+                    <p><strong>Роль:</strong> Тестировщик и разработчик</p>
+                    <p>Тестирование приложения, разработка функционала, проверка работы и отладка.</p>
+                    <p><strong>Основные обязанности:</strong> Тестировщик и Разработчик</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>Сделано для проектной практики • Май 2026</p>
+    </footer>
+</body>
+</html>
