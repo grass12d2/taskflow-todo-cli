@@ -69,7 +69,7 @@ def main():
             else:
                 print_error("Неверный выбор!")
         except KeyboardInterrupt:
-            print("\n\nПрограмма завершена.")
+            print("\n\nПрограмма завершена.") 
             break
         except Exception as e:
             print_error(f"Ошибка: {e}")
